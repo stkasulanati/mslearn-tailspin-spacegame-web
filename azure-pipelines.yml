@@ -1,7 +1,7 @@
 trigger:
   - '*'
 pool:
-  name: Azure VMSS Agent Pool
+  name: myScaleSet
   demands:
     - npm
 variables:
