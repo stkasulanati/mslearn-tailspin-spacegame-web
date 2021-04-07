@@ -1,7 +1,7 @@
 trigger:
   - '*'
 pool:
-  vmImage: ubuntu-18.04
+  vmImage: 'Azure VMSS Agent Pool'
   demands:
     - npm
 variables:
