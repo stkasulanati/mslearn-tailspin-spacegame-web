@@ -1,9 +1,11 @@
 trigger:
   - '*'
 pool:
-  name: Azure VMSS Agent Pool
+  name: selfhostedvmss
+  vmImage: ubuntu-18.04
   demands:
-    - npm
+  - npm
+
 variables:
   buildConfiguration: Release
   wwwrootDir: Tailspin.SpaceGame.Web/wwwroot
